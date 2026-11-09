@@ -1,7 +1,6 @@
 # Bike Sharing Demand Analysis
 
 An exploratory data analysis project using Python to understand bike-sharing demand, customer behaviour, and the factors associated with rental activity.
-
 This project explores the [UCI Bike Sharing Dataset](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset), focusing on hourly rental records from the Capital Bikeshare system in Washington, D.C. The analysis uses Pandas, NumPy, and Matplotlib to identify patterns and translate them into possible operational insights.
 
 ## Project Overview
@@ -9,7 +8,6 @@ This project explores the [UCI Bike Sharing Dataset](https://archive.ics.uci.edu
 The goal of this project is to understand how bike rental demand changes with time, weather, temperature, and customer type.
 
 The analysis focuses on questions such as:
-
 - During which hours is rental demand highest?
 - How do registered and casual customers use the service differently?
 - How does demand vary between working days and non-working days?
@@ -51,7 +49,6 @@ Some important columns:
 
 - **Python** – Core programming language
 - **Pandas** – Data loading, cleaning, grouping, and aggregation
-- **NumPy** – Numerical operations
 - **Matplotlib** – Data visualisation
 - **Jupyter Notebook** – Interactive analysis
 
@@ -123,7 +120,6 @@ pip install pandas numpy matplotlib jupyter
 ### 4. Download the dataset
 
 Download the Bike Sharing Dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset).
-
 Extract the files and place `hour.csv` in the project's `data/raw/` directory.
 
 ### 5. Launch Jupyter Notebook
@@ -131,7 +127,6 @@ Extract the files and place `hour.csv` in the project's `data/raw/` directory.
 ```bash
 jupyter notebook
 ```
-
 Open the project's analysis notebook and run the cells.
 
 ## Project Structure
@@ -139,12 +134,10 @@ Open the project's analysis notebook and run the cells.
 ```text
 bike-sharing-porto/
 ├── data/
-│   └── raw/
-│       └── hour.csv              # Download separately
+│       └── hour.csv              # Download separately and day.csv is not used here
 ├── images/
 │   └──                         # Analysis visualisations
-├── notebooks/
-│   └── bike_sharing_eda.ipynb
+├── notebook.ipynb
 ├── .gitignore
 └── README.md
 ```
@@ -153,9 +146,7 @@ The structure above describes the intended organisation of the project. Adjust t
 
 ## What's Next?
 
-This project currently focuses on exploratory data analysis. The next step is to use the patterns identified here to explore bike rental demand prediction.
-
-Planned work includes comparing feature combinations, preparing data for modelling, and evaluating machine learning models using appropriate validation metrics.
+This project currently focuses on exploratory data analysis. The next step is to use the patterns identified here to explore bike rental demand prediction. Planned work includes comparing feature combinations, preparing data for modelling, and evaluating machine learning models using appropriate validation metrics.
 
 ## References
 
